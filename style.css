@@ -1,0 +1,81 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2ch;
+    
+}
+a{
+    color:rgb(99, 98, 98);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 22px;
+    color:rgb(49, 49, 49)
+}
+main{
+    width: 50%;
+    margin: 1% auto 10%;
+    text-align: center;
+}
+main img{
+    height: 21ch;
+}
+input{
+    width: 80%;
+    padding: 1%;
+    border-radius: 30px;
+    border: 1px solid rgb(218, 218, 218);
+    height: 4ch;
+    background-image: url('C:\Users\SPECTREX\Desktop\practice coding\Google page\search logo.webp');
+}
+.buttons{
+    margin-top: 4%;
+    }
+.buttons button{
+    padding: 2%;
+    border: none;
+    background-color:rgb(245, 245, 245);
+    margin-right: 2ch;
+    height: 5ch;
+}
+.words{
+    justify-content: center;
+    padding: 4%;
+}
+.words a{
+    color: blue;
+    margin-left: 1ch;
+}
+footer{
+    background-color: rgb(245, 245, 245);
+}
+.footer_top{
+    padding: 1%;
+    margin-left: 2ch;
+    color: rgb(107, 107, 107);
+}
+.footer_bottom{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+.left a{
+    margin-left:3ch;
+}
+.right a{
+    margin-right: 3ch;
+}
+a:hover{
+    text-decoration: underline;
+}
